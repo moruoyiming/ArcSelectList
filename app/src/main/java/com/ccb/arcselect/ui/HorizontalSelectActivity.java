@@ -80,7 +80,7 @@ private final int CHILDVIEWSIZE = 100;
 
     private void initData() {
         if (mDatas == null) mDatas = new ArrayList<>();
-        for (int i = 0; i < 55; i++) {
+        for (int i = 0; i < 2; i++) {
             mDatas.add("条目" + i);
         }
         for (int j = 0; j < childViewHalfCount; j++) { //头部的空布局

@@ -12,6 +12,7 @@ import com.ccb.arcselect.ui.AutoSelectActivity;
 import com.ccb.arcselect.ui.BottomArcActivity;
 import com.ccb.arcselect.ui.CircleArcActivity;
 import com.ccb.arcselect.ui.HorizontalSelectActivity;
+import com.ccb.arcselect.ui.MainActivity;
 import com.ccb.arcselect.ui.PadingArcActivity;
 import com.ccb.arcselect.ui.ArcSelectActivity;
 
@@ -56,7 +57,7 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
                 start(HorizontalSelectActivity.class);
                 break;
                 case R.id.bt_auto_select_h2:
-                start(BottomArcActivity.class);
+                start(MainActivity.class);
                 break;
         }
     }
